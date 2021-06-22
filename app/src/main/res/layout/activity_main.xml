@@ -8,15 +8,12 @@
     android:orientation="vertical"
     android:layout_gravity="center_vertical">
 
-    <TextView
-        android:id="@+id/txtCount"
+    <ImageView
+        android:id="@+id/imgDice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1"
-        android:textSize="50sp"
         android:layout_gravity="center_horizontal"
-        android:textColor="#6973d4"
-        />
+        android:src="@drawable/dice_1"/>
     <Button
         android:id="@+id/btnCount"
         android:layout_width="80dp"
@@ -24,7 +21,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/roll"
         android:textAllCaps="false"
-        android:backgroundTint="#6973d4"
+        android:backgroundTint="#00b300"
         android:textColor="#fff"
         android:textSize="30sp"
         />
